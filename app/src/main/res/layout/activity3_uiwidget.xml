@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".three.UIWidgetActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="this is textView"
+        android:textColor="#00FF00"
+        android:textSize="24sp" />
+
+
+    <EditText
+        android:id="@+id/ui_widget_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="type something here"
+        android:maxLines="2" />
+
+    <Button
+        android:id="@+id/ui_widget_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:textAllCaps="false" />
+
+    <ImageView
+        android:id="@+id/ui_widget_imageView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:gravity="center"
+        android:src="@drawable/image1" />
+
+    <Button
+        android:id="@+id/ui_widget_button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="更换图片"
+        android:textAllCaps="false" />
+
+    <ProgressBar
+        android:id="@+id/ui_widget_process_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100" />
+
+    <Button
+        android:id="@+id/ui_widget_button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="显示/隐藏进度条"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/ui_widget_button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="更改进度条进度"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/ui_widget_button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="打开AlertDialog"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/ui_widget_button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="打开ProgressDialog"
+        android:textAllCaps="false" />
+
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+ <!-- <include layout="@layout/title"/>-->
+
+ <com.example.UICustomViews.TitleLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content" />
+
+ <Button
+     android:id="@+id/button_normal"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="start NormalActivity" />
+
+ <Button
+     android:id="@+id/button_dialog"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="start DialogActivity" />
+
+ <Button
+     android:id="@+id/chapter_three"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="第三章"
+     tools:layout_editor_absoluteX="135dp"
+     tools:layout_editor_absoluteY="52dp" />
+
+ <Button
+     android:id="@+id/chapter_six"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="第六章"
+     tools:layout_editor_absoluteX="135dp"
+     tools:layout_editor_absoluteY="52dp" />
+
+ <Button
+     android:id="@+id/file_persistence_button"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="文件存储" />
+
+</LinearLayout>

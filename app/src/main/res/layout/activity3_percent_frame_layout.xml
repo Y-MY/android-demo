@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--   android.support.percent.PercentFrameLayout-->
+    <!--
+    <android.support.percent.PercentFrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/button_percent1"
+            android:layout_widthPercent="50%"
+            android:layout_heightPercent="50%"
+            android:layout_gravity="left|top"
+            android:text="button 1" />
+
+        <Button
+            android:id="@+id/button_percent2"
+            android:layout_widthPercent="50%"
+            android:layout_heightPercent="50%"
+            android:layout_gravity="right|top"
+            android:text="button 2" />
+
+        <Button
+            android:id="@+id/button_percent3"
+            android:layout_widthPercent="50%"
+            android:layout_heightPercent="50%"
+            android:layout_gravity="left|bottom"
+            android:text="button 3" />
+
+
+        <Button
+            android:id="@+id/button_percent4"
+            android:layout_widthPercent="50%"
+            android:layout_heightPercent="50%"
+            android:layout_gravity="right|bottom"
+            android:text="button 4" />
+    </android.support.percent.PercentFrameLayout>-->
+
+</LinearLayout>

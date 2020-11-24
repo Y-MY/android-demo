@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChapterThreeActivity">
+
+    <Button
+        android:id="@+id/button_ui_widget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UIWidget" />
+
+    <Button
+        android:id="@+id/button_ui_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="linear" />
+
+    <Button
+        android:id="@+id/button_ui_relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Relative" />
+
+    <Button
+        android:id="@+id/button_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="list view" />
+
+    <Button
+        android:id="@+id/button_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="recycler view" />
+
+    <Button
+        android:id="@+id/chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="message" />
+
+
+
+</LinearLayout>
