@@ -3,6 +3,7 @@ package com.example.UICustomViews;
 import android.app.Activity;
 import android.content.Context;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
@@ -14,6 +15,7 @@ import androidx.annotation.Nullable;
 import com.example.demo.R;
 
 public class TitleLayout extends LinearLayout implements View.OnClickListener {
+    private static final String TAG = "TitleLayout";
 
     public TitleLayout(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
@@ -21,6 +23,8 @@ public class TitleLayout extends LinearLayout implements View.OnClickListener {
 
         Button titleBack = (Button) findViewById(R.id.title_back);
         Button titleEdit = (Button) findViewById(R.id.title_edit);
+
+        Log.i(TAG, "TitleLayout: "+attrs);
 
         titleBack.setOnClickListener(this);
         titleEdit.setOnClickListener(this);

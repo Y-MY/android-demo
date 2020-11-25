@@ -5,36 +5,37 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".SixActivity">
-
-    <com.example.UICustomViews.TitleLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+    tools:context=".six.SQLiteActivity">
 
     <Button
-        android:id="@+id/file_persistence_button"
+        android:id="@+id/sqlite_create"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="文件存储file persistence" />
+        android:text="create database" />
 
     <Button
-        android:id="@+id/shared_persistence_button"
+        android:id="@+id/sqlite_add"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="shared preference" />
+        android:text="add data" />
 
     <Button
-        android:id="@+id/sqlite_button"
+        android:id="@+id/sqlite_update"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="sqlite" />
+        android:text="update data" />
 
     <Button
-        android:id="@+id/litepal_button"
+        android:id="@+id/sqlite_delete"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="litepal" />
+        android:text="delete data" />
 
+    <Button
+        android:id="@+id/sqlite_query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="query data" />
 
 
 

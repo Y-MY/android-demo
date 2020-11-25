@@ -22,6 +22,11 @@
         android:hint="type something here"
         android:maxLines="2" />
 
+    <CheckBox
+        android:id="@+id/ui_widget_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
     <Button
         android:id="@+id/ui_widget_button"
         android:layout_width="match_parent"

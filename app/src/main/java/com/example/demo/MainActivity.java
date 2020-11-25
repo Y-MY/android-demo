@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //Toast.makeText(FirstActivity.this,"YOU CLICK button2 ",Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(MainActivity.this, FilePersistenceActivity.class);
+                Intent intent = new Intent(MainActivity.this, SixActivity.class);
                 startActivity(intent);
             }
         });

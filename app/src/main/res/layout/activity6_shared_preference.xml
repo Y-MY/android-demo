@@ -1,27 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".six.FilePersistenceActivity">
+    tools:context=".six.SharedPreferenceActivity">
 
-    <com.example.UICustomViews.TitleLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <EditText
-        android:id="@+id/file_persistence_edit"
+    <Button
+        android:id="@+id/shared_save_data"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="type something here"
-        />
+        android:text="save data"
+        android:textAllCaps="false" />
 
-    <EditText
-        android:id="@+id/file_persistence_read"
+    <Button
+        android:id="@+id/shared_restore_data"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="read file something here"
-        />
+        android:text="restore data"
+        android:textAllCaps="false" />
 
 </LinearLayout>
