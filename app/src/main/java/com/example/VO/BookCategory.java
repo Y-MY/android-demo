@@ -2,7 +2,7 @@ package com.example.VO;
 
 import org.litepal.crud.DataSupport;
 
-public class Category extends DataSupport {
+public class BookCategory extends DataSupport {
     private int id;
     private String categoryName;
     private int categoryCode;

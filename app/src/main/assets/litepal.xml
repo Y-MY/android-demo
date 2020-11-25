@@ -2,9 +2,14 @@
 <litepal>
     <dbname value="book"></dbname>
     <!--<dbname value="BookStore"></dbname>-->
-    <version value="2"></version>
+    <version value="3"></version>
     <list>
         <mapping class="com.example.VO.Book"></mapping>
-        <mapping class="com.example.VO.Category"></mapping>
+        <mapping class="com.example.VO.BookCategory"></mapping>
+
+        <mapping class="com.example.demo.model.Category"></mapping>
+        <mapping class="com.example.demo.model.Comment"></mapping>
+        <mapping class="com.example.demo.model.Introduction"></mapping>
+        <mapping class="com.example.demo.model.News"></mapping>
     </list>
 </litepal>
