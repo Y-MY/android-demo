@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.demo.six.FilePersistenceActivity;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
@@ -29,6 +28,16 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 //Toast.makeText(FirstActivity.this,"YOU CLICK button2 ",Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(MainActivity.this, ChapterThreeActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button buttonChapterFour = (Button) findViewById(R.id.chapter_four);
+        buttonChapterFour.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Toast.makeText(FirstActivity.this,"YOU CLICK button2 ",Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, FourActivity.class);
                 startActivity(intent);
             }
         });

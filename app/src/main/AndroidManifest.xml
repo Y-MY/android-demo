@@ -12,12 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="MissingClass">
-        <activity android:name=".six.LitePalActivity"></activity>
+        <activity android:name=".four.DynamicFragmentActivity"></activity>
+        <activity android:name=".four.SimpleFragmentActivity" />
+        <activity android:name=".six.LitePalActivity" />
         <activity android:name=".six.SQLiteActivity" />
         <activity android:name=".six.SharedPreferenceActivity" />
         <activity
             android:name=".six.FilePersistenceActivity"
             android:label="File persistence" />
+        <activity android:name=".FourActivity" />
         <activity android:name=".SixActivity" />
         <activity
             android:name=".three.ChatActivity"
