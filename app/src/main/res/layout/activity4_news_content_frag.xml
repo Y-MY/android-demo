@@ -32,7 +32,6 @@
             android:layout_weight="1"
             android:padding="15dp"
             android:textSize="18sp"
-            android:ellipsize="end"
             android:gravity="top|left"
             />
 
