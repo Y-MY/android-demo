@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.demo.five.BroadcastActivity;
+import com.example.demo.five.LocalBroadcastActivity;
 import com.example.demo.four.SimpleFragmentActivity;
 
 public class FiveActivity extends AppCompatActivity {
@@ -27,7 +28,6 @@ public class FiveActivity extends AppCompatActivity {
         buttonBroadcastDynamic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Toast.makeText(FirstActivity.this,"YOU CLICK button2 ",Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(FiveActivity.this, BroadcastActivity.class);
                 startActivity(intent);
             }
@@ -37,7 +37,6 @@ public class FiveActivity extends AppCompatActivity {
         buttonBroadcastSendStand.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Toast.makeText(FirstActivity.this,"YOU CLICK button2 ",Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent("com.example.demo.MY_BROADCAST");
                 // 发送标准广播，发出的广播可以被其他的应用程序接收到
                 // sendBroadcast(intent);
@@ -45,6 +44,16 @@ public class FiveActivity extends AppCompatActivity {
                 sendOrderedBroadcast(intent,null);
             }
         });
+        Button buttonBroadcastLocal = (Button) findViewById(R.id.broadcast_local);
+        buttonBroadcastLocal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(FiveActivity.this, LocalBroadcastActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
 
     }
 }

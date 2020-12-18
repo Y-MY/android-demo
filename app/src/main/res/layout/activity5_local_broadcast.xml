@@ -11,23 +11,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <Button
-        android:id="@+id/broadcast_dynamic"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="动态注册广播接收器" />
 
     <Button
-        android:id="@+id/broadcast_send_stand"
+        android:id="@+id/sendButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="发送标准广播" />
+        android:text="发送本地广播" />
 
-    <Button
-        android:id="@+id/broadcast_local"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="使用本地广播" />
 
 
 </LinearLayout>

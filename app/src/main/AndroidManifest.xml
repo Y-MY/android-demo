@@ -12,8 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="MissingClass">
+        <activity android:name=".five.LocalBroadcastActivity"></activity>
         <activity android:name=".five.BroadcastActivity" />
-
         <activity android:name=".FiveActivity" />
         <activity android:name=".four.NewsActivity" />
         <activity android:name=".four.NewsContentActivity" />
@@ -74,11 +74,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <receiver
             android:name=".five.SendOrderBroadcastReceiver"
             android:enabled="true"
-            android:exported="true"></receiver>
-
+            android:exported="true" />
         <receiver
             android:name=".five.MyBroadcastReceiver"
             android:enabled="true"
@@ -96,8 +96,8 @@
             </intent-filter>
         </receiver>
     </application>
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
 </manifest>
