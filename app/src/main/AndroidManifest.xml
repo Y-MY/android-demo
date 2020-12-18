@@ -12,7 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="MissingClass">
-        <activity android:name=".four.DynamicFragmentActivity"></activity>
+        <activity android:name=".four.NewsActivity"></activity>
+        <activity android:name=".four.NewsContentActivity" />
+        <activity android:name=".four.DynamicFragmentActivity" />
         <activity android:name=".four.SimpleFragmentActivity" />
         <activity android:name=".six.LitePalActivity" />
         <activity android:name=".six.SQLiteActivity" />

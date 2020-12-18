@@ -23,13 +23,13 @@
         android:layout_height="wrap_content"
         android:text="动态添加碎片" />
 
-    <!-- <Button
-        android:id="@+id/sqlite_button"
+     <Button
+        android:id="@+id/news_fragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="sqlite" />
+        android:text="碎片的最佳实践--一个简易版的新闻应用" />
 
-    <Button
+    <!--<Button
         android:id="@+id/litepal_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

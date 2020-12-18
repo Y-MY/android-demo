@@ -31,7 +31,8 @@ public class FruitRecyclerAdapter extends RecyclerView.Adapter<FruitRecyclerAdap
         //横向滚动
         //View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.hfruit_item, parent, false);
 
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.activity3_sfruit_item, parent, false);
+        View view = LayoutInflater.from(parent.getContext())
+                .inflate(R.layout.activity3_sfruit_item, parent, false);
         final ViewHolder holder = new ViewHolder(view);
         holder.fruitView.setOnClickListener(new View.OnClickListener() {
             @Override

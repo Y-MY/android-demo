@@ -7,6 +7,7 @@ import android.widget.Button;
 
 
 import com.example.demo.four.DynamicFragmentActivity;
+import com.example.demo.four.NewsActivity;
 import com.example.demo.four.SimpleFragmentActivity;
 
 import androidx.appcompat.app.ActionBar;
@@ -44,6 +45,18 @@ public class FourActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button buttonFragmentNews = (Button) findViewById(R.id.news_fragment);
+        buttonFragmentNews.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Toast.makeText(FirstActivity.this,"YOU CLICK button2 ",Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(FourActivity.this, NewsActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
     }
 
   /*  @OnClick(R.id.simple_fragment)
