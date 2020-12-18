@@ -42,6 +42,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button buttonChapterFive = (Button) findViewById(R.id.chapter_five);
+        buttonChapterFive.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Toast.makeText(FirstActivity.this,"YOU CLICK button2 ",Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, FiveActivity.class);
+                startActivity(intent);
+            }
+        });
+
         Button buttonChapterSix = (Button) findViewById(R.id.chapter_six);
         buttonChapterSix.setOnClickListener(new View.OnClickListener() {
             @Override

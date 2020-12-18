@@ -10,8 +10,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.example.VO.Msg;
-import com.example.adapter.MsgRecyclerAdapter;
+import com.example.demo.VO.Msg;
+import com.example.demo.adapter.MsgRecyclerAdapter;
 import com.example.demo.R;
 
 import java.util.ArrayList;

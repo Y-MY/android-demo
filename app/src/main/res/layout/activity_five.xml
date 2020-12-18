@@ -12,30 +12,22 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/file_persistence_button"
+        android:id="@+id/broadcast_dynamic"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="文件存储file persistence" />
+        android:text="动态注册广播接收器" />
 
     <Button
-        android:id="@+id/shared_persistence_button"
+        android:id="@+id/broadcast_send_stand"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="shared preference" />
+        android:text="发送标准广播" />
 
     <Button
-        android:id="@+id/sqlite_button"
+        android:id="@+id/news_fragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="sqlite" />
-
-    <Button
-        android:id="@+id/litepal_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="litepal" />
-
-
+        android:text="碎片的最佳实践--一个简易版的新闻应用" />
 
 
 </LinearLayout>

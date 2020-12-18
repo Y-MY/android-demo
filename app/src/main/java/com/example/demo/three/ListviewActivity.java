@@ -8,8 +8,8 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.example.VO.Fruit;
-import com.example.adapter.FruitAdapter;
+import com.example.demo.VO.Fruit;
+import com.example.demo.adapter.FruitAdapter;
 import com.example.demo.R;
 
 import java.util.ArrayList;

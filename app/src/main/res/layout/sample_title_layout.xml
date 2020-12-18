@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.example.UICustomViews.TitleLayout
+    <com.example.demo.UICustomViews.TitleLayout
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:background="#ccc"

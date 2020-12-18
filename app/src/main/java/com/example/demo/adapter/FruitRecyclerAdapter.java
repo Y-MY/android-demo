@@ -1,4 +1,4 @@
-package com.example.adapter;
+package com.example.demo.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,7 +10,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.VO.Fruit;
+import com.example.demo.VO.Fruit;
 import com.example.demo.R;
 
 import java.util.List;

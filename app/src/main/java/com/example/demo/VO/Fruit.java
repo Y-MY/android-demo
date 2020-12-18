@@ -1,4 +1,4 @@
-package com.example.VO;
+package com.example.demo.VO;
 
 public class Fruit {
     private String name;

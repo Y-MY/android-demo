@@ -9,7 +9,7 @@
 
  <!-- <include layout="@layout/title"/>-->
 
- <com.example.UICustomViews.TitleLayout
+ <com.example.demo.UICustomViews.TitleLayout
      android:layout_width="match_parent"
      android:layout_height="wrap_content" />
 
@@ -38,6 +38,14 @@
      android:layout_width="match_parent"
      android:layout_height="wrap_content"
      android:text="第四章"
+     tools:layout_editor_absoluteX="135dp"
+     tools:layout_editor_absoluteY="52dp" />
+
+ <Button
+     android:id="@+id/chapter_five"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="第五章"
      tools:layout_editor_absoluteX="135dp"
      tools:layout_editor_absoluteY="52dp" />
 

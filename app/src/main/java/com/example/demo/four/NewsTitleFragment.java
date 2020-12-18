@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.example.VO.News;
+import com.example.demo.VO.News;
 import com.example.demo.R;
 
 import java.util.ArrayList;

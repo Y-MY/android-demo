@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:context=".SixActivity">
 
-    <com.example.UICustomViews.TitleLayout
+    <com.example.demo.UICustomViews.TitleLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 

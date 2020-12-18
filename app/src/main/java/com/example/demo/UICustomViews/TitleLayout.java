@@ -1,4 +1,4 @@
-package com.example.UICustomViews;
+package com.example.demo.UICustomViews;
 
 import android.app.Activity;
 import android.content.Context;
@@ -10,9 +10,9 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
-import androidx.annotation.Nullable;
-
 import com.example.demo.R;
+
+import androidx.annotation.Nullable;
 
 public class TitleLayout extends LinearLayout implements View.OnClickListener {
     private static final String TAG = "TitleLayout";

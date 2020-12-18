@@ -6,8 +6,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
-import com.example.VO.Fruit;
-import com.example.adapter.FruitRecyclerAdapter;
+import com.example.demo.VO.Fruit;
+import com.example.demo.adapter.FruitRecyclerAdapter;
 import com.example.demo.R;
 
 import java.util.ArrayList;
