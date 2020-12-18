@@ -1,7 +1,9 @@
-package com.example.demo;
+package com.example.demo.utils;
 
 import android.os.Bundle;
 import android.util.Log;
+
+import com.example.demo.utils.ActivityCollector;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
