@@ -11,8 +11,9 @@ import android.widget.Button;
 import com.example.demo.five.BroadcastActivity;
 import com.example.demo.five.LocalBroadcastActivity;
 import com.example.demo.four.SimpleFragmentActivity;
+import com.example.demo.utils.BaseActivity;
 
-public class FiveActivity extends AppCompatActivity {
+public class FiveActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,7 +42,7 @@ public class FiveActivity extends AppCompatActivity {
                 // 发送标准广播，发出的广播可以被其他的应用程序接收到
                 // sendBroadcast(intent);
                 // 发送有序广播
-                sendOrderedBroadcast(intent,null);
+                sendOrderedBroadcast(intent, null);
             }
         });
         Button buttonBroadcastLocal = (Button) findViewById(R.id.broadcast_local);
@@ -53,6 +54,14 @@ public class FiveActivity extends AppCompatActivity {
             }
         });
 
+        Button buttonForceOffline = (Button) findViewById(R.id.force_offline);
+        buttonForceOffline.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent("com.example.demo.FORCE_OFFLINE");
+                sendBroadcast(intent);
+            }
+        });
 
 
     }

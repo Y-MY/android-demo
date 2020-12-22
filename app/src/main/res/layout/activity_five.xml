@@ -29,5 +29,11 @@
         android:layout_height="wrap_content"
         android:text="使用本地广播" />
 
+    <Button
+        android:id="@+id/force_offline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="强制下线" />
+
 
 </LinearLayout>
